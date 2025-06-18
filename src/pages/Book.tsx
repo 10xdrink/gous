@@ -8,9 +8,8 @@ import Newsletter from "@/components/Newsletter";
 const Book = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
-  // Amazon BookLinker URLs - replace with your actual BookLinker URLs
-  const indiaBookUrl = "https://amazon.in/your-book-link";
-  const usaBookUrl = "https://amazon.com/your-book-link";
+  // Universal BookLinker URL
+  const universalBookUrl = "https://geni.us/thephilosophyoffatloss";
 
   return (
     <div className="min-h-screen bg-white">
@@ -24,7 +23,7 @@ const Book = () => {
             <div className="flex justify-center items-center">
 
                 <img 
-                  src="https://res.cloudinary.com/dvbbsgj1u/image/upload/v1748702434/rijds8arvqwacbjivbbn.jpg" 
+                  src="https://res.cloudinary.com/dvbbsgj1u/image/upload/v1750255363/BC_-_18_Transparent_Background_with_Shadow_ibit5n.png" 
                   alt="The Philosophy of Fat Loss Book Cover" 
                   className="w-[600px] h-auto object-cover"
                   onLoad={() => setIsImageLoaded(true)}
@@ -43,20 +42,20 @@ const Book = () => {
               
               <div className="pt-4 flex flex-row flex-wrap gap-3 md:gap-4 justify-center md:justify-start">
                 <a 
-                  href={indiaBookUrl}
+                  href={universalBookUrl}
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-black text-white font-semibold px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
-                  Buy From India <ArrowRight size={20} />
+                  Buy Paperback (on Amazon) <ArrowRight size={20} />
                 </a>
                 <a 
-                  href={usaBookUrl}
+                  href={universalBookUrl}
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white text-black font-semibold px-8 py-4 rounded-lg border-2 border-black hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
-                  Buy From USA <ArrowRight size={20} />
+                  Buy eBook (on Amazon) <ArrowRight size={20} />
                 </a>
               </div>
             </div>
@@ -189,20 +188,20 @@ const Book = () => {
           
           <div className="pt-4 md:pt-6 flex flex-row flex-nowrap gap-3 md:gap-4 justify-center">
             <a 
-              href={indiaBookUrl}
+              href={universalBookUrl}
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-1 md:gap-2 bg-black text-white font-medium md:font-semibold px-4 py-2 md:px-10 md:py-5 rounded-md md:rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-md md:shadow-lg hover:shadow-lg md:hover:shadow-xl transform hover:-translate-y-0.5 md:hover:-translate-y-1 active:translate-y-0 text-sm md:text-lg w-auto md:w-auto"
             >
-              Buy From India <ArrowRight size={16} className="md:animate-pulse" />
+              Buy Paperback (on Amazon) <ArrowRight size={16} className="md:animate-pulse" />
             </a>
             <a 
-              href={usaBookUrl}
+              href={universalBookUrl}
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-1 md:gap-2 bg-white text-black font-medium md:font-semibold px-4 py-2 md:px-10 md:py-5 rounded-md md:rounded-lg border border-black md:border-2 hover:bg-gray-100 transition-all duration-300 shadow-md md:shadow-lg hover:shadow-lg md:hover:shadow-xl transform hover:-translate-y-0.5 md:hover:-translate-y-1 active:translate-y-0 text-sm md:text-lg w-auto md:w-auto"
             >
-              Buy From USA <ArrowRight size={16} className="md:animate-pulse" />
+              Buy eBook (on Amazon) <ArrowRight size={16} className="md:animate-pulse" />
             </a>
           </div>
         </div>

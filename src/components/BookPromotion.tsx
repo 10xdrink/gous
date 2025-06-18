@@ -9,7 +9,7 @@ const BookPromotion = () => {
             <div className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] rounded-lg overflow-hidden  transform hover:rotate-1 transition-all duration-500 relative">
               <div className="absolute inset-0 z-10 pointer-events-none"></div>
               <img 
-                src="https://res.cloudinary.com/dvbbsgj1u/image/upload/v1748702434/rijds8arvqwacbjivbbn.jpg" 
+                src="https://res.cloudinary.com/dvbbsgj1u/image/upload/v1750255363/BC_-_18_Transparent_Background_with_Shadow_ibit5n.png" 
                 alt="The Truth About Fat Loss Book Cover" 
                 className="w-full h-auto object-cover"
               />
@@ -22,8 +22,14 @@ const BookPromotion = () => {
               THE TRUTH ABOUT FAT LOSS NO ONE TOLD YOU
             </h2>
             
+            <p className="text-base sm:text-lg md:text-xl text-gray-800 leading-relaxed font-medium">
+              Fat loss isn't about motivation, it's about clarity. This book gives you both.
+            </p>
+            
             <p className="text-base sm:text-lg md:text-xl text-gray-800 leading-relaxed">
-              Discover evidence-based strategies to strip away confusion, overcome plateaus, and finally build a body you love—without starving yourself or wasting money on gimmicks.
+              You've been lied to by the industry for too long.<br />
+              The Philosophy of Fat Loss delivers a simple, powerful system that cuts through the BS.<br />
+              No gimmicks. No shortcuts. Just real results through real understanding.
             </p>
             
             <blockquote className="text-base sm:text-lg italic text-gray-700 border-l-4 border-gradient-to-b from-black to-gray-700 pl-4 mx-auto md:mx-0 max-w-md md:max-w-none">

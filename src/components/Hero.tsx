@@ -49,7 +49,7 @@ const Hero = () => {
           
           {/* Right Column - Image */}
           <div className="order-1 lg:order-2 flex items-center justify-center h-full py-0 pb-0 lg:py-0">
-            <div className="w-4/5 sm:w-3/4 md:w-2/3 lg:w-full h-full flex items-center justify-center">
+            <div className="w-3/5 sm:w-3/5 md:w-1/2 lg:w-4/5 h-full flex items-center justify-center">
               <img 
                 src="https://res.cloudinary.com/dvbbsgj1u/image/upload/v1748694094/xm7ttdhyu1yjlwsnczpm.png"
                 alt="Gous - Wellness Guide and Fat Loss Consultant"

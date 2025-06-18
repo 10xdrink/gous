@@ -36,16 +36,36 @@ const AboutMe = () => {
           {/* Content with styled typography */}
           <div className="md:w-3/5 space-y-6 sm:space-y-8 mt-10 sm:mt-12 md:mt-0 text-center md:text-left px-2 sm:px-0">
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
-              I'm a <span className="text-white font-semibold">Fat Loss Consultant</span> and <span className="text-white font-semibold">Wellness Guide</span> with over ten years of experience helping clients achieve their goals. 
+              I'm Gous — a <span className="text-white font-semibold">fat loss consultant</span> and <span className="text-white font-semibold">clarity coach</span> who helps people transform not just their bodies, but their entire approach to a fit and fulfilled life. For over 7 years, I've guided more than 80 individuals from fat to fit through a deeper understanding of food, discipline, and long-term thinking.
             </p>
             
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
-              I created the <span className="text-white font-semibold">SIMS Diet</span>—<span className="italic">Simple, Interval, Mindset, Sustainable</span>—to eliminate fad diets and focus on whole foods, flexible eating windows, and weekly check-ins.
+              This isn't about hacks, trends, or quick fixes.<br />
+              <span className="text-white font-medium">This is about building the mindset and structure that create real, lasting change.</span>
+            </p>
+            
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
+              I believe fat loss isn't just about how you look<br />
+              <span className="text-white font-medium">It's about regaining control over your choices</span><br />
+              <span className="text-white font-medium">Overcoming the urge for comfort</span><br />
+              <span className="text-white font-medium">And earning peace through effort</span>
+            </p>
+            
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
+              My work blends practical nutrition with deeper truths about pain, pleasure, and modern life. I connect the dots between how you eat, how you think, and how you live so you can break the cycles holding you back.
+            </p>
+            
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
+              Whether it's through my content, one-on-one guidance, my book, or the diet companion app I'm building<br />
+              <span className="text-white font-medium">My goal is simple</span><br />
+              <span className="text-white font-medium">To help you build clarity, resilience, and strength in a world that's constantly pushing you to drift</span>
             </p>
             
             <div className="pl-4 sm:pl-5 border-l-4 border-white py-2 mx-auto md:mx-0 max-w-lg md:max-w-none">
               <p className="text-base sm:text-lg md:text-xl font-medium">
-                After a 30-minute assessment, I design a personalized nutrition and exercise plan, provide meal templates and exercise demos, and meet weekly to track progress.
+                If you're tired of starting over<br />
+                If you want real structure, not noise<br />
+                You're in the right place
               </p>
             </div>
           </div>
