@@ -47,15 +47,7 @@ const Book = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-black text-white font-semibold px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
-                  Buy Paperback (on Amazon) <ArrowRight size={20} />
-                </a>
-                <a 
-                  href={universalBookUrl}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-white text-black font-semibold px-8 py-4 rounded-lg border-2 border-black hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-                >
-                  Buy eBook (on Amazon) <ArrowRight size={20} />
+                  Buy Now <ArrowRight size={20} />
                 </a>
               </div>
             </div>
@@ -193,15 +185,7 @@ const Book = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-1 md:gap-2 bg-black text-white font-medium md:font-semibold px-4 py-2 md:px-10 md:py-5 rounded-md md:rounded-lg hover:bg-gray-800 transition-all duration-300 shadow-md md:shadow-lg hover:shadow-lg md:hover:shadow-xl transform hover:-translate-y-0.5 md:hover:-translate-y-1 active:translate-y-0 text-sm md:text-lg w-auto md:w-auto"
             >
-              Buy Paperback (on Amazon) <ArrowRight size={16} className="md:animate-pulse" />
-            </a>
-            <a 
-              href={universalBookUrl}
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-1 md:gap-2 bg-white text-black font-medium md:font-semibold px-4 py-2 md:px-10 md:py-5 rounded-md md:rounded-lg border border-black md:border-2 hover:bg-gray-100 transition-all duration-300 shadow-md md:shadow-lg hover:shadow-lg md:hover:shadow-xl transform hover:-translate-y-0.5 md:hover:-translate-y-1 active:translate-y-0 text-sm md:text-lg w-auto md:w-auto"
-            >
-              Buy eBook (on Amazon) <ArrowRight size={16} className="md:animate-pulse" />
+              Buy Now <ArrowRight size={16} className="md:animate-pulse" />
             </a>
           </div>
         </div>
