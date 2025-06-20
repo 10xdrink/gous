@@ -41,9 +41,6 @@ const Hero = () => {
                   Creator of SIMS Diet
                 </span>
               </div>
-              <div className="mt-4">
-                <button className="bg-white text-black px-6 sm:px-5 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300">Learn More</button>
-              </div>
             </div>
           </div>
           
