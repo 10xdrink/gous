@@ -40,7 +40,7 @@ const Book = () => {
                 The breakthrough approach to sustainable fat loss that cuts through the noise and delivers real results.
               </p>
               
-              <div className="pt-4 flex flex-row flex-wrap gap-3 md:gap-4 justify-center md:justify-start">
+              <div className="pt-4 flex flex-row flex-wrap gap-3 md:gap-4 justify-center md:justify-start items-center">
                 <a 
                   href={universalBookUrl}
                   target="_blank" 
@@ -49,6 +49,11 @@ const Book = () => {
                 >
                   Buy Now <ArrowRight size={20} />
                 </a>
+                <img
+                  src="https://res.cloudinary.com/dvbbsgj1u/image/upload/v1750416229/Amazon_logo.svg_s795m0.png"
+                  alt="Amazon"
+                  className="h-8 w-auto object-contain"
+                />
               </div>
             </div>
           </div>
@@ -178,7 +183,7 @@ const Book = () => {
             Ready to Transform Your Approach to Fat Loss?
           </h2>
           
-          <div className="pt-4 md:pt-6 flex flex-row flex-nowrap gap-3 md:gap-4 justify-center">
+          <div className="pt-4 md:pt-6 flex flex-row flex-nowrap gap-3 md:gap-4 justify-center items-center">
             <a 
               href={universalBookUrl}
               target="_blank" 
@@ -187,6 +192,11 @@ const Book = () => {
             >
               Buy Now <ArrowRight size={16} className="md:animate-pulse" />
             </a>
+            <img
+              src="https://res.cloudinary.com/dvbbsgj1u/image/upload/v1750416229/Amazon_logo.svg_s795m0.png"
+              alt="Amazon"
+              className="h-8 mt-2 w-auto object-contain"
+            />
           </div>
         </div>
       </section>
