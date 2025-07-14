@@ -43,6 +43,7 @@ const Navbar = () => {
           )}
           <a href="#social" className="text-white hover:text-gray-300 transition-colors">Social</a>
           <a href="#newsletter" className="text-white hover:text-gray-300 transition-colors">Newsletter</a>
+          <a href="/return-policy" className="text-white hover:text-gray-300 transition-colors">Return Policy</a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -164,6 +165,25 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="relative z-10">Newsletter</span>
+                <motion.span 
+                  className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"
+                  initial={{ width: 0 }}
+                  whileHover={{ width: "100%" }}
+                />
+              </motion.a>
+              
+              <motion.a 
+                href="/return-policy" 
+                className="text-white hover:text-gray-300 transition-colors text-center relative overflow-hidden group"
+                onClick={() => setIsMenuOpen(false)}
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: 20, opacity: 0 }}
+                transition={{ duration: 0.3, delay: 0.4 }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <span className="relative z-10">Return Policy</span>
                 <motion.span 
                   className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"
                   initial={{ width: 0 }}
